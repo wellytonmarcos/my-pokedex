@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap");
+@import "tailwindcss";
+
+body {
+  font-family: "Press Start 2P", "Roboto", sans-serif;
+}
+
+.pokedex-color {
+}
+.pokedex-container {
+  width: 460px;
+  height: 830px;
+}
+.pokedex-body {
+  position: relative;
+}
+
+.pokedex-main-header {
+  width: 435px;
+  height: 125px;
+  clip-path: polygon(100% 0%, 100% 41%, 71% 41%, 41% 100%, 0 100%, 0% 0%);
+}
+
+.pokedex-header {
+  width: 440px;
+  height: 120px;
+  clip-path: polygon(100% 0%, 100% 40%, 70% 40%, 40% 100%, 0 100%, 0% 0%);
+  display: flex;
+}
+
+.pokedex-main-circle {
+  background-color: oklch(60.333% 0.15359 247.302);
+}
+
+.pokedex-screen-format {
+  clip-path: polygon(100% 0, 100% 100%, 10% 100%, 0 90%, 0 0);
+}
